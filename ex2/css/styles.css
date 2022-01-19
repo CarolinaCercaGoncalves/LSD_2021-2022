@@ -1,0 +1,34 @@
+div{
+    /* Exemplo de comentário em CSS */
+    width: 400px;
+    height: 300px;
+    background-color: orange;
+    /*-A-*/
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    /*-A-*/
+
+    margin: 80px; /* Quando inserida, insere margem em todo os lados*/
+
+    margin: 40px 25px 50px 20px; /* Quando inserida, segue a orgem dos ponteiros do relogio T-R-B-L. Alternativa ao -A-*/
+}
+
+/* DEFINIR CLASS EM CSS */
+.par{
+   background-color: red;
+}
+
+p{ 
+    font-size: 18px; /* Aumento da letra de todos os paragrafos */
+    margin: 0;
+}
+
+.par p span{ /* Utilizado para salientar uma secção do parágrafo especifico*/
+    background-color: purple;
+}
+
+.par p{ /* Alteraçaõ da cor de especificos paragrafos */
+    background-color: turquoise;
+}
